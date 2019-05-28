@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import createReactClass from 'create-react-class';
+var createReactClass = require('create-react-class');
 
 var NewComponent = createReactClass({
     render: function() {
@@ -219,7 +219,7 @@ function Donate() {
       </div>
     </nav>
 
-    {NewComponent}
+    <NewComponent/>
 
     <footer className="container py-5">
       <div className="row">
