@@ -72,3 +72,14 @@
 }
 
 .overflow-hidden { overflow: hidden; }
+
+.side
+{
+  position: relative;
+  top: -100px;
+
+}
+.button
+{
+  top: -200px;
+}
