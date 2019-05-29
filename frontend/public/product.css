@@ -20,9 +20,7 @@
   text-decoration: none;
 }
 
-/*
- * Dummy devices (replace them with your own or something else entirely!)
- */
+
 
 .product-device {
   position: absolute;
@@ -55,11 +53,6 @@
   background-color: #e5e5e5;
 }
 
-
-/*
- * Extra utilities
- */
-
 .flex-equal > * {
   -ms-flex: 1;
   flex: 1;
@@ -82,4 +75,8 @@
 .button
 {
   top: -200px;
+}
+h1
+{
+  font-style: : italic;
 }
