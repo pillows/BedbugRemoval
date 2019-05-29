@@ -22,49 +22,58 @@ function App() {
 
 <div className="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
   <div className="col-md-5 p-lg-5 mx-auto my-5">
+    <img src= "bug.jpg" fluid/>
     <h1 className="display-4 font-weight-normal">Bedbugs</h1>
-    <p className="lead font-weight-normal">The Plague Among Us</p>
+    <p className="lead font-weight-normal">About The Plague Among Us</p>
     {/* <a className="btn btn-outline-secondary" href="#">Coming soon</a> */}
+    {/* <div className= "side">  */}
+
+{/* </div> */}
   </div>
-  <div className="product-device shadow-sm d-none d-md-block"></div>
-  <div className="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+  {/* <div className="product-device shadow-sm d-none d-md-block"></div>
+  <div className="product-device product-device-2 shadow-sm d-none d-md-block"></div> */}
 </div>
 
 <div className="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
   <div className="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
     <div className="my-3 py-3">
       <h2 className="display-5">Dark Origins</h2>
-      <p className="lead">And an even wittier subheading.</p>
+      <p className="lead">Bedbugs are a scourge on society, one of humanity's ancient enemies, it is believed that they originated in caves in the middle east, when humans lived in caves. They have continued to plague us over tens of thousands of years.
+      They have followed us to Hunter. </p>
+      <p className="lead">We stand against these vermin; a light in the dark.
+      </p>
     </div>
     {/* <div className="bg-light shadow-sm mx-auto" style={{width:'80%', height: '300px', borderRadius: '21px 21px 0 0'}}></div> */}
   </div>
-  <div className="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+  {/* <div className="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
     <div className="my-3 p-3">
       <h2 className="display-5">Another headline</h2>
       <p className="lead">And an even wittier subheading.</p>
     </div>
     <div className="bg-dark shadow-sm mx-auto" style={{width:'80%', height: '300px', borderRadius: '21px 21px 0 0'}}></div>
-  </div>
+  </div> */}
 </div>
 
 <div className="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
   <div className="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
     <div className="my-3 p-3">
-      <h2 className="display-5">Another headline</h2>
-      <p className="lead">And an even wittier subheading.</p>
+      <h2 className="display-5">Spotted</h2>
+      <p className="lead">Location: Comfy Chairs in the Library</p>
     </div>
-    <div className="bg-dark shadow-sm mx-auto" style={{width:'80%', height: '300px', borderRadius: '21px 21px 0 0'}}></div>
+    <div className="bg-dark shadow-sm mx-auto" style={{width:'80%', height: '550px', borderRadius: '21px 21px 0 0'}}>
+    <img src="bedbugs2.png" fluid />;
+    </div>
   </div>
   <div className="bg-primary mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
     <div className="my-3 py-3">
       <h2 className="display-5">Another headline</h2>
       <p className="lead">And an even wittier subheading.</p>
     </div>
-    <div className="bg-light shadow-sm mx-auto" style={{width:'80%', height: '300px', borderRadius: '21px 21px 0 0'}}></div>
+    <div className="bg-light shadow-sm mx-auto" style={{width:'80%', height: '550px', borderRadius: '21px 21px 0 0'}}></div>
   </div>
 </div>
 
-<div className="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+{/* <div className="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
   <div className="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
     <div className="my-3 p-3">
       <h2 className="display-5">Another headline</h2>
@@ -79,9 +88,9 @@ function App() {
     </div>
     <div className="bg-white shadow-sm mx-auto" style={{width:'80%', height: '300px', borderRadius: '21px 21px 0 0'}}></div>
   </div>
-</div>
+</div> */}
 
-<div className="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+{/* <div className="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
   <div className="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
     <div className="my-3 p-3">
       <h2 className="display-5">Another headline</h2>
@@ -91,12 +100,12 @@ function App() {
   </div>
   <div className="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
     <div className="my-3 py-3">
-      <h2 className="display-5">Another headline</h2>
+      <h2 className="display-5">A*AE(Fjlikdjala) headline</h2>
       <p className="lead">And an even wittier subheading.</p>
     </div>
     <div className="bg-white shadow-sm mx-auto" style={{width:'80%', height: '300px', borderRadius: '21px 21px 0 0'}}></div>
   </div>
-</div>
+</div> */}
 
 <footer className="container py-5">
   <div className="row">
