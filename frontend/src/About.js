@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import Button from 'react-bootstrap/Button'
 import './App.css';
 
 const divStyle = {
@@ -68,10 +69,20 @@ function App() {
   </div>
   <div className="bg-primary mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
     <div className="my-3 py-3">
-      <h2 className="display-5">Another headline</h2>
-      <p className="lead">And an even wittier subheading.</p>
+      <h2 className="display-5">Donate Now</h2>
+      <p className="lead">Save lives</p>
     </div>
-    <div className="bg-light shadow-sm mx-auto" style={{width:'80%', height: '550px', borderRadius: '21px 21px 0 0'}}></div>
+    <div className="bg-light shadow-sm mx-auto" style={{width:'80%', height: '550px', borderRadius: '21px 21px 0 0'}}>
+    <Link to="/Donate">
+    <Button variant="danger" size="lg" block>
+    Donate!
+  </Button>
+  </Link>
+  <div class="fill">
+ <img src ="bugz.jpg" fill class="cover-image" />
+ </div>
+    {/* <Button variant="danger">Donate!</Button></Link> */}
+    </div>
   </div>
 </div>
 
