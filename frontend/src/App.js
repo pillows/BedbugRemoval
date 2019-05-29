@@ -1,6 +1,7 @@
 import React from 'react';
 import { ReactComponent as Logo } from './logo.svg';
 import './App.css';
+import { Link } from 'react-router-dom';
 
 function App() {
   return (
@@ -8,12 +9,10 @@ function App() {
     <nav className="site-header sticky-top py-1">
   <div className="container d-flex flex-column flex-md-row justify-content-between">
     <a className="py-2" href="#">
-  
     </a>
     <a className="py-2 d-none d-md-inline-block" href="#">Home</a>
     <a className="py-2 d-none d-md-inline-block" href="/About">About</a>
     <a className="py-2 d-none d-md-inline-block" href="/Donate">Donate</a>
-    
   </div>
 </nav>
 
@@ -26,7 +25,7 @@ function App() {
   <div className= "side"> 
   <img src= "bug.jpg"/>
   </div>
- <button type="button" class="btn btn-primary btn-lg btn-block "> Help our students study. DONATE NOW!</button>
+      <Link to="/Donate">HELP OUR STUDENT'S STUDY. Donate Now!</Link>
 
 </div>
 
@@ -41,7 +40,7 @@ function App() {
       <ul className="list-unstyled text-small">
         <li><a className="text-muted" href="#">How can you donate?</a></li>
         <li><a className="text-muted" href="#">What is a bedbug?</a></li>
-        <li><a className="text-muted" href="#">Does your library have bedbugs?</a></li>
+        <li><a className="text-muted" href="#">Does your library have bedbugs? Report a sighting. </a></li>
         
     
       </ul>
@@ -51,7 +50,7 @@ function App() {
       <ul className="list-unstyled text-small">
         <li><a className="text-muted" href="#">How do bedbugs effect productivity?</a></li>
         <li><a className="text-muted" href="#">Bedbugs in NYC</a></li>
-        <li><a className="text-muted" href="#">Another resource</a></li>
+       
     
       </ul>
     </div>
@@ -61,7 +60,7 @@ function App() {
       <ul className="list-unstyled text-small">
         <li><a className="text-muted" href="#">Team</a></li>
         <li><a className="text-muted" href="#">CUNY Campuses</a></li>
-        <li><a className="text-muted" href="#"> Cooperman Library</a></li>
+        <li><a className="text-muted" href="#"> Contact us</a></li>
       </ul>
     </div>
   </div>
