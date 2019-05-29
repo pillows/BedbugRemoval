@@ -10,12 +10,10 @@ function App() {
     <a className="py-2" href="#">
   
     </a>
-    <a className="py-2 d-none d-md-inline-block" href="#">History</a>
-    <a className="py-2 d-none d-md-inline-block" href="#">Product</a>
-    <a className="py-2 d-none d-md-inline-block" href="#">Solutions</a>
-    <a className="py-2 d-none d-md-inline-block" href="#">Donation</a>
-    <a className="py-2 d-none d-md-inline-block" href="#">Support</a>
-    <a className="py-2 d-none d-md-inline-block" href="#">Cart</a>
+    <a className="py-2 d-none d-md-inline-block" href="#">Home</a>
+    <a className="py-2 d-none d-md-inline-block" href="/About">About</a>
+    <a className="py-2 d-none d-md-inline-block" href="/Donate">Donate</a>
+    
   </div>
 </nav>
 
